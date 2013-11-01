@@ -1,0 +1,18 @@
+{
+  "name": "string-exists",
+  "version": "0.1.0",
+  "description": "check if a string exists inside a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "string",
+    "filter"
+  ],
+  "author": "sethvincent",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~2.1.0"
+  }
+}
