@@ -5,7 +5,7 @@ module.exports = function stringExists(words, text){
   var matches = [];
 
   for (i=0; i<words.length; i++){
-    if (text.toLowerCase().indexOf(words[i]) != -1){
+    if (text.toLowerCase().indexOf(words[i].toLowerCase()) != -1){
       matches.push(words[i]);
     }
   }
